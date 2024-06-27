@@ -1,4 +1,4 @@
-module github.com/AlexandrKobalt/trip-track/backend/web-server
+module github.com/AlexandrKobalt/trip-track_web-server
 
 go 1.22.1
 

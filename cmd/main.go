@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/AlexandrKobalt/trip-track/backend/web-server/config"
+	"github.com/AlexandrKobalt/trip-track_web-server/config"
 )
 
 func main() {

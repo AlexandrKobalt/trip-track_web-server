@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/AlexandrKobalt/trip-track/backend/web-server/internal/file/models"
+	"github.com/AlexandrKobalt/trip-track_web-server/internal/file/models"
 )
 
 type IService interface {

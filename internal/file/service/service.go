@@ -5,7 +5,7 @@ import (
 	"io"
 
 	fileserverproto "github.com/AlexandrKobalt/trip-track/backend/proto/fileserver"
-	"github.com/AlexandrKobalt/trip-track/backend/web-server/internal/file/models"
+	"github.com/AlexandrKobalt/trip-track_web-server/internal/file/models"
 )
 
 type service struct {

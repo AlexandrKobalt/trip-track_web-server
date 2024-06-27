@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/AlexandrKobalt/trip-track/backend/web-server/internal/file/models"
-	"github.com/AlexandrKobalt/trip-track/backend/web-server/internal/file/service"
+	"github.com/AlexandrKobalt/trip-track_web-server/internal/file/models"
+	"github.com/AlexandrKobalt/trip-track_web-server/internal/file/service"
 	"github.com/gofiber/fiber/v2"
 )
 

@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/AlexandrKobalt/trip-track/backend/web-server/internal/file/handler"
+	"github.com/AlexandrKobalt/trip-track_web-server/internal/file/handler"
 	"github.com/gofiber/fiber/v2"
 )
 
