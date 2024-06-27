@@ -43,6 +43,6 @@ func (h *handler) GetURL() fiber.Handler {
 			return err
 		}
 
-		return c.JSON(result)
+		return c.Redirect(result.URL, fiber.StatusTemporaryRedirect)
 	}
 }

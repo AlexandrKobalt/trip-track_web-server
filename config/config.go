@@ -4,6 +4,9 @@ import (
 	"encoding/json"
 	"os"
 
+	grpcclient "github.com/AlexandrKobalt/trip-track_file-server/pkg/grpc/client"
+	"github.com/AlexandrKobalt/trip-track_web-server/pkg/duration"
+	"github.com/AlexandrKobalt/trip-track_web-server/pkg/fiberapp"
 	"github.com/go-playground/validator"
 )
 
@@ -12,6 +15,11 @@ const (
 )
 
 type Config struct {
+	StartTimeout duration.Seconds
+	StopTimeout  duration.Seconds
+
+	FiberApp       fiberapp.Config
+	FileServerGRPC grpcclient.Config
 }
 
 func LoadConfig() (cfg *Config, err error) {

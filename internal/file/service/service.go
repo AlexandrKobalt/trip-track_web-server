@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	fileserverproto "github.com/AlexandrKobalt/trip-track/backend/proto/fileserver"
+	fileserverproto "github.com/AlexandrKobalt/trip-track_proto/fileserver"
 	"github.com/AlexandrKobalt/trip-track_web-server/internal/file/models"
 )
 
@@ -37,6 +37,9 @@ func (s *service) Upload(
 			File: fileBytes,
 		},
 	)
+	if err != nil {
+		return result, err
+	}
 
 	return models.UploadResult{
 		Key: response.GetKey(),

@@ -5,7 +5,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 )
 
-func Map(group fiber.Group, h handler.IHandler) {
+func Map(group fiber.Router, h handler.IHandler) {
 	group.Post("/", h.Upload())
 	group.Get("/", h.GetURL())
 }

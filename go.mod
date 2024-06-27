@@ -31,10 +31,10 @@ require (
 )
 
 require (
-	github.com/AlexandrKobalt/trip-track/backend/proto/fileserver v0.0.0-20240627100034-fd1326653591
+	github.com/AlexandrKobalt/trip-track_file-server v0.0.0-20240627120517-7a64dd9d3c4c
+	github.com/AlexandrKobalt/trip-track_proto/fileserver v0.0.0-20240627120812-e42780a051cc
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/gofiber/fiber/v2 v2.52.4
 	github.com/leodido/go-urn v1.4.0 // indirect
-	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
